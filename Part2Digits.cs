@@ -11,7 +11,7 @@
 
                 while (num > 0)
                 {
-                    digitSum += num % 10; //digitsum = digitsum+(num%10) Add the last digit of 'num' to 'digitSum'
+                    digitSum += num % 10; // Add the last digit of 'num' to 'digitSum'
                     num /= 10;   //num = num/10 Remove the last digit from 'num'
                 }
 
