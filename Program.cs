@@ -10,9 +10,9 @@ namespace Practice8.Parts
             #region Part one
             Console.WriteLine("- Part One : Is Anagram Or Not");
             Part1Anagram part1 = new();
-            Console.WriteLine(part1.IsAnagram("anagram", "nagaram"));
-            Console.WriteLine(part1.IsAnagram("rat", "car"));
-            Console.WriteLine(part1.IsAnagram("hamid", "dimah"));
+            Console.WriteLine($"Is [anagram] and [nagaram] Anagram ? --> {part1.IsAnagram("anagram", "nagaram")}");
+            Console.WriteLine($"Is [rat] and [car] Anagram ? --> {part1.IsAnagram("rat", "car")}");
+            Console.WriteLine($"Is [hamid] and [dimah] Anagram ? --> {part1.IsAnagram("hamid", "dimah")}");
             Console.WriteLine("*********************************************************************");
             #endregion
 
