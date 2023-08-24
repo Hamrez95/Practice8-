@@ -1,4 +1,4 @@
-﻿namespace Practice8
+﻿namespace Practice8.Parts
 {
     public class Part4MoveZiroes
     {
@@ -13,7 +13,7 @@
                     nums[NonZeroIndex] = nums[i];
                     NonZeroIndex++;
                 }
-                 
+
             }
             for (int i = NonZeroIndex; i < nums.Length; i++)
             {

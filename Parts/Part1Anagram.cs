@@ -1,4 +1,4 @@
-﻿namespace Practice8
+﻿namespace Practice8.Parts
 {
     public class Part1Anagram
     {
@@ -22,5 +22,5 @@
             return true;
         }
     }
-    
+
 }

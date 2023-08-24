@@ -1,4 +1,6 @@
-﻿namespace Practice8
+﻿using Practice8.Parts;
+
+namespace Practice8.Parts
 {
     internal partial class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace Practice8
+﻿namespace Practice8.Parts
 {
     public class Part2Digits
     {
