@@ -31,8 +31,20 @@
             Console.WriteLine($"Is Number :'10' Ugly?  --> {part3.IsUgly(10)}");
 
             Console.WriteLine("*******************************************************************************");
-
+            
             //Part Four-------------------------------------------------------------------------------------------
+
+            Console.WriteLine("- Part Four : Move Zeroes To End");
+            Part4MoveZiroes part4 = new();
+            int[] nums1 = { 0, 1, 0, 3, 12 };
+            part4.MoveZeroes(nums1);
+            Console.WriteLine($"Move All Zeroes In '[ 0, 1, 0, 3, 12]' To End  --> [{string.Join(", ", nums1)}]");
+
+            int[] nums2 = { 10, 0, 550, 22, 77, 0, 10, 0, 0, 25, 666, 8 };
+            part4.MoveZeroes(nums2);
+            Console.WriteLine($"Move All Zeroes In '[10, 0, 550, 22, 77, 0, 10, 0, 0, 25, 666, 8]' To End  --> [{string.Join(", ", nums2)}]");
+
+            Console.WriteLine("*******************************************************************************");
         }
 
     }
